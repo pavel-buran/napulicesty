@@ -1,3 +1,3 @@
 Pomocí tohoto formuláře můžete poslat Vaše komentáře nebo připomínky přímo autorovi knihy.<br>
 <br>
-Žádné z polí "Jméno", "Email" a "Komentář" není povinné. Pro úspěšné odeslání nesmí ale být zcela prázdná všechny tři pole najednou.
+Žádné z polí "Jméno", "Email" a "Komentář" není povinné. Pro úspěšné odeslání nesmí ale být zcela prázdná všechna tři pole najednou.
