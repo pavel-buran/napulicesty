@@ -298,16 +298,20 @@ nav a:focus + ul, nav a:active + ul {
 @media (max-width: 600px) {
 .desktop-header {display: none;}
 .desktop-body   {display: none;}
+.desktop-footer {display: none;}
 
-.mobile-header {display: block;}
-.mobile-body   {display: table;}
+.mobile-header  {display: block;}
+.mobile-body    {display: table;}
+.mobile-footer  {display: table;}
 }
 
 /* Desktop from 601 px */
 @media (min-width: 601px) {
 .desktop-header {display: table;}
 .desktop-body   {display: table;}
+.desktop-footer {display: table;}
 
-.mobile-header {display: none;}
-.mobile-body   {display: none;}
+.mobile-header  {display: none;}
+.mobile-body    {display: none;}
+.mobile-footer  {display: none;}
 }
