@@ -21,6 +21,7 @@ async function loadIncludes() {
   );
 
   setActiveNavigation();
+  setCurrentPageName();
 }
 
 function normalizePath(path) {
@@ -47,6 +48,23 @@ function setActiveNavigation() {
       link.removeAttribute("aria-current");
     }
   });
+}
+
+function setCurrentPageName() {
+  const currentFile =
+    window.location.pathname.split("/").pop() || "index.html";
+
+  const currentPage = document.getElementById("current-page");
+  const links = document.querySelectorAll("#menu-content a");
+
+  if (!currentPage) return;
+
+  for (const link of links) {
+    if (link.getAttribute("href") === currentFile) {
+      currentPage.textContent = link.textContent.trim();
+      break;
+    }
+  }
 }
 
 document.addEventListener("DOMContentLoaded", loadIncludes);
