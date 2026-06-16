@@ -51,9 +51,7 @@ function setActiveNavigation() {
 }
 
 function setCurrentPageName() {
-  const currentFile =
-    window.location.pathname.split("/").pop() || "index.html";
-
+  const currentFile = window.location.pathname.split("/").pop() || "index.html";
   const currentPage = document.getElementById("current-page");
   const links = document.querySelectorAll("#menu-content a");
 

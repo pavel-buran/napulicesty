@@ -1,317 +1,347 @@
 
 body {
-	font-family		: Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size		: 16px;
-	color			: #000000;
-	font-weight		: normal;
-	margin			: 0px 0px 0px 0px;
-	padding			: 0px 0px 0px 0px;
-	spacing			: 0px;
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size   : 16px;
+  color       : #000000;
+  font-weight : normal;
+  margin      : 0px 0px 0px 0px;
+  padding     : 0px 0px 0px 0px;
+  spacing     : 0px;
 }
 
 /* Mobile defaults */
 @media (max-width: 600px) {
-    .content{
-        position : relative;
-        margin   : 10px 10px 10px 10px;
-    }
-    .bg {
-        background-image	: url('../images/panorama.jpg');
-        background-repeat	: no-repeat;
-        background-size		: cover;
-        height			: 100vh;
-        width			: 100vw;
-        margin			: -10px 0px 0px 0px;
-        position		: fixed;
-    }
+  .content{
+    position : relative;
+    margin   : 10px 10px 10px 10px;
+  }
+  .bg {
+    background-image  : url('../images/panorama.jpg');
+    background-repeat : no-repeat;
+    background-size   : cover;
+    height            : 100vh;
+    width             : 100vw;
+    margin            : -10px 0px 0px 0px;
+    position          : fixed;
+  }
 }
 
 /* Desktop from 601 px */
 @media (min-width: 601px) {
-    .content{
-        position : relative;
-        margin   : 30px 30px 30px 30px;
-    }
-    .bg {
-        background-image	: url('../images/panorama.jpg');
-        background-repeat	: no-repeat;
-        background-size		: cover;
-        height			: 100vh;
-        width			: 100vw;
-        margin			: -30px 0px 0px 0px;
-        position		: fixed;
-    }
+  .content{
+    position : relative;
+    margin   : 30px 30px 30px 30px;
+  }
+  .bg {
+    background-image  : url('../images/panorama.jpg');
+    background-repeat : no-repeat;
+    background-size   : cover;
+    height            : 100vh;
+    width             : 100vw;
+    margin            : -30px 0px 0px 0px;
+    position          : fixed;
+  }
 }
 
 A {
-	font-family	 : Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size	 : 16px;
-	text-decoration	 : underline;
-	color		 : #2222aa;
-	font-weight	 : bold;}
+  font-family     : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size       : 16px;
+  text-decoration : underline;
+  color           : #2222aa;
+  font-weight     : bold;
+}
 
 A:hover {
-	font-family	 : Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size	 : 16px;
-	text-decoration  : underline;
-	color		 : #777777;
-	font-weight	 : bold;}
+  font-family     : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size       : 16px;
+  text-decoration : underline;
+  color           : #777777;
+  font-weight     : bold;
+}
 
 A.header {
-	font-family	 : Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size	 : 16px;
-	text-decoration	 : none;
-	color		 : #333355;
-	font-weight	 : bold;}
+  font-family     : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size       : 16px;
+  text-decoration : none;
+  color           : #333355;
+  font-weight     : bold;
+}
 
 A.header:hover {
-	font-family	 : Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size	 : 16px;
-	text-decoration	 : none;
-	color		 : #777777;
-	font-weight	 : bold;}
-	
+  font-family     : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size       : 16px;
+  text-decoration : none;
+  color           : #777777;
+  font-weight     : bold;
+}
+  
 H1 {
-	font-family	 : Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size	 : 24px;}
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size   : 24px;
+}
 
 H2 {
-	font-family	 : Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size	 : 20px;}
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size   : 20px;
+}
 
 H3 {
-	font-family	 : Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size	 : 16px;}
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size   : 16px;
+}
 
 H4 {
-	font-family	 : Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size	 : 14px;}
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size   : 14px;
+}
 
 TABLE.bordered {
-	font-size	 : 100%;
-	border-left	 : 1px solid #000000;
-	border-right	 : 1px solid #000000;
-	border-top	 : 1px solid #000000;
-	border-bottom	 : 1px solid #000000;
-	padding		 : 0 0 0 0;
-	margin		 : 0px 0px 0px 0px;
-	color		 : #333355;
-	background-color : #000000;}
+  font-size        : 100%;
+  border-left      : 1px solid #000000;
+  border-right     : 1px solid #000000;
+  border-top       : 1px solid #000000;
+  border-bottom    : 1px solid #000000;
+  padding          : 0 0 0 0;
+  margin           : 0px 0px 0px 0px;
+  color            : #333355;
+  background-color : #000000;
+}
 
 TABLE.header {
-	font-size	 : 100%;
-	border-left	 : 1px solid #000000;
-	border-right	 : 1px solid #000000;
-	border-top	 : 1px solid #000000;
-	border-bottom	 : 1px solid #000000;
-	border-radius	 : 10px;
-	padding		 : 0 0 0 0;
-	margin		 : 0px 0px 0px 0px;
-	color		 : #333355;
-    margin-bottom: 10px;
-	background-color : rgb(0,0,0);
-	background-color : rgba(0,0,0,0.07);}
+  font-size        : 100%;
+  border-left      : 1px solid #000000;
+  border-right     : 1px solid #000000;
+  border-top       : 1px solid #000000;
+  border-bottom    : 1px solid #000000;
+  border-radius    : 10px;
+  padding          : 0 0 0 0;
+  margin           : 0px 0px 0px 0px;
+  color            : #333355;
+  margin-bottom    : 10px;
+  background-color : rgb(0,0,0);
+  background-color : rgba(0,0,0,0.07);
+}
 
 TABLE.main {
-	font-size	 : 100%;
-	border-left	 : 1px solid #000000;
-	border-right	 : 1px solid #000000;
-	border-top	 : 1px solid #000000;
-	border-bottom	 : 1px solid #000000;
-	border-radius	 : 10px;
-	padding		 : 0 0 0 0;
-	margin		 : 0px 0px 0px 0px;
-	color		 : #333355;
-    margin-bottom: 10px;
-	background-color : rgb(0,0,0);
-	background-color : rgba(0,0,0,0.07);}
+  font-size        : 100%;
+  border-left      : 1px solid #000000;
+  border-right     : 1px solid #000000;
+  border-top       : 1px solid #000000;
+  border-bottom    : 1px solid #000000;
+  border-radius    : 10px;
+  padding          : 0 0 0 0;
+  margin           : 0px 0px 0px 0px;
+  color            : #333355;
+  margin-bottom    : 10px;
+  background-color : rgb(0,0,0);
+  background-color : rgba(0,0,0,0.07);
+}
 
 TABLE.footer {
-	font-size	 : 100%;
-	border-left	 : 1px solid #000000;
-	border-right	 : 1px solid #000000;
-	border-top	 : 1px solid #000000;
-	border-bottom	 : 1px solid #000000;
-	border-radius	 : 10px;
-	padding		 : 0 0 0 0;
-	margin		 : 0px 0px 0px 0px;
-	color		 : #333355;
-	background-color : rgb(0,0,0);
-	background-color : rgba(0,0,0,0.07);}
+  font-size        : 100%;
+  border-left      : 1px solid #000000;
+  border-right     : 1px solid #000000;
+  border-top       : 1px solid #000000;
+  border-bottom    : 1px solid #000000;
+  border-radius    : 10px;
+  padding          : 0 0 0 0;
+  margin           : 0px 0px 0px 0px;
+  color            : #333355;
+  background-color : rgb(0,0,0);
+  background-color : rgba(0,0,0,0.07);
+}
 
 TABLE.noborder {
-	font-size	 : 100%;
-	border-left	 : 0px;
-	border-right	 : 0px;
-	border-top	 : 0px;
-	border-bottom	 : 0px;
-	padding		 : 0 0 0 0;
-	color		 : #333355;}
+  font-size     : 100%;
+  border-left   : 0px;
+  border-right  : 0px;
+  border-top    : 0px;
+  border-bottom : 0px;
+  padding       : 0 0 0 0;
+  color         : #333355;
+}
 
 DIV.bookimage {
-	border-left	 : 0px solid #000000;
-	border-right	 : 0px solid #000000;
-	border-top	 : 0px solid #000000;
-	border-bottom	 : 0px solid #000000;
-	padding		 : 30px 20px 30px 20px;
-	margin		 : 0 0 0 0;
-	color		 : #333355;
-	background-color : rgb(0,0,0);
-	background-color : rgba(0,0,0,0.6);}
+  border-left      : 0px solid #000000;
+  border-right     : 0px solid #000000;
+  border-top       : 0px solid #000000;
+  border-bottom    : 0px solid #000000;
+  padding          : 30px 20px 30px 20px;
+  margin           : 0 0 0 0;
+  color            : #333355;
+  background-color : rgb(0,0,0);
+  background-color : rgba(0,0,0,0.6);
+}
 
 DIV.success-message {
-	margin-bottom	 : 20px;
-	font-size	 : 18px;
-	color		 : green;}
+  margin-bottom : 20px;
+  font-size     : 18px;
+  color         : green;
+}
 
 DIV.error-message {
-	margin-bottom	 : 20px;
-	font-size	 : 18px;
-	color		 : red;}
+  margin-bottom : 20px;
+  font-size     : 18px;
+  color         : red;
+}
 
 .floated_img {
-	float		 : left;
-	background-color : #000000;
-	padding		 : 10px 10px 10px 10px;
-	margin		 : 0px 0px 0px 0px;
-	border-radius	 : 15px;
-	text-align	 : center;}
+  float            : left;
+  background-color : #000000;
+  padding          : 10px 10px 10px 10px;
+  margin           : 0px 0px 0px 0px;
+  border-radius    : 15px;
+  text-align       : center;
+}
 
 .author_img {
-	float		 : left;
-	background-color : #000000;
-	padding		 : 5px 15px 0px 0px;
-	margin		 : 0px 0px 0px 0px;}
-	
+  float            : left;
+  background-color : #000000;
+  padding          : 5px 15px 0px 0px;
+  margin           : 0px 0px 0px 0px;
+}
+
 .textfield {
-	font-family	 : Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size	 : 14px;
-	border		 : 1px solid #000000;
-        border-radius	 : 5px;
-	padding		 : 5px 10px 5px 10px;
-	text-decoration	 : none;
-	color		 : #000000;
-	background-color : #ffffff;
-	font-weight	 : normal;}
+  font-family      : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size        : 14px;
+  border           : 1px solid #000000;
+  border-radius    : 5px;
+  padding          : 5px 10px 5px 10px;
+  text-decoration  : none;
+  color            : #000000;
+  background-color : #ffffff;
+  font-weight      : normal;
+}
 
 .submitbutton {
-    border-radius : 10px;
-	border		  : 1px solid #000000;
-	padding		  : 15px 30px 18px 30px;
-	text-align	  : center;
-	display		  : inline-block;
-	cursor		  : pointer;
-	font-family	  : Verdana, Geneva, Arial, Helvetica, sans-serif;
-	font-size	  : 16px;
-	text-decoration	 : none;
-	color		  : #ffffff;
-	background-color : #111144;
-	font-weight	  : bold;}
+  border-radius    : 10px;
+  border           : 1px solid #000000;
+  padding          : 15px 30px 18px 30px;
+  text-align       : center;
+  display          : inline-block;
+  cursor           : pointer;
+  font-family      : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size        : 16px;
+  text-decoration  : none;
+  color            : #ffffff;
+  background-color : #111144;
+  font-weight      : bold;
+}
 
 .submitbutton:disabled {
-    background-color : #cccccc;
-    color            : #666666;
-    border-color     : #999999;
-    cursor           : not-allowed;
-    opacity          : 0.6;
+  background-color : #cccccc;
+  color            : #666666;
+  border-color     : #999999;
+  cursor           : not-allowed;
+  opacity          : 0.6;
 }
 
 MENU {
-	border-left	 : 0px solid #000000;
-	border-right	 : 0px solid #000000;
-	border-top	 : 0px solid #000000;
-	border-bottom	 : 0px solid #000000;
-	font-size	 : 100%;
-	padding		 : 0 0 0 0;
-	margin		 : 0px 0px 0px 0px;
-	color		 : #333355;}
+  border-left   : 0px solid #000000;
+  border-right  : 0px solid #000000;
+  border-top    : 0px solid #000000;
+  border-bottom : 0px solid #000000;
+  font-size     : 100%;
+  padding       : 0 0 0 0;
+  margin        : 0px 0px 0px 0px;
+  color         : #333355;
+}
 
 LI {
-	flex-grow	 : 1;
-	white-space	 : nowrap;
-	padding		 : 0 20px 0 20px;
-	text-align	 : center;}
+  flex-grow   : 1;
+  white-space : nowrap;
+  padding     : 0 20px 0 20px;
+  text-align  : center;
+}
 
 menu.ios {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-content: flex-start;
-	line-height: 2;
-	list-style: none;
+  display        : flex;
+  flex-direction : row;
+  flex-wrap      : wrap;
+  align-content  : flex-start;
+  line-height    : 2;
+  list-style     : none;
 }
 
 nav {
-	border-left	 : 1px solid #000000;
-	border-right	 : 1px solid #000000;
-	border-top	 : 1px solid #000000;
-	border-bottom	 : 1px solid #000000;
-	border-radius	 : 10px;
-	padding		 : 0 0 0 0;
-	margin		 : 0px 0px 0px 0px;
-	color		 : #333355;
-    margin-bottom: 10px;
-	background-color : rgb(0,0,0);
-	background-color : rgba(0,0,0,0.07);}
+  border-left      : 1px solid #000000;
+  border-right     : 1px solid #000000;
+  border-top       : 1px solid #000000;
+  border-bottom    : 1px solid #000000;
+  border-radius    : 10px;
+  padding          : 0 0 0 0;
+  margin           : 0px 0px 0px 0px;
+  color            : #333355;
+  margin-bottom    : 10px;
+  background-color : rgb(0,0,0);
+  background-color : rgba(0,0,0,0.07);
+}
 
 nav ul {
-	list-style	 : none;
-	padding		 : 0 0 0 10px;}
+  list-style : none;
+  padding    : 0 0 0 10px;
+}
 
 nav ul li {
-	display		 : inline-block;
-	text-align	 : left;}
+  display    : inline-block;
+  text-align : left;
+}
 
 nav a {
-	display		 : inline-block;
-	line-height	 : 2;
-	text-decoration	 : none;}
+  display         : inline-block;
+  line-height     : 2;
+  text-decoration : none;
+}
 
 nav ul li ul {
-	position	 : absolute;
-	margin		 : 0px 0px 0px 20px;
-	background	 : #ffffff;
-	border-radius	 : 10px;
-	left		 : -300;
-	padding		 : 10 10 10 10;}
+  position      : absolute;
+  margin        : 0px 0px 0px 20px;
+  background    : #ffffff;
+  border-radius : 10px;
+  left          : -300;
+  padding       : 10 10 10 10;
+}
 
 nav ul li ul li {
-	display		 : list-item;
-	position	 : relative;}
+  display  : list-item;
+  position : relative;
+}
 
 nav ul li:focus > ul, nav ul li:active > ul {
-	left		 : 50;}
+  left : 50;
+}
 
 nav a:focus + ul, nav a:active + ul {
-	left		 : 50;}
+  left : 50;
+}
 
 .menu-content {
-    display: none;
+  display : none;
 }
 
 .menu-content.open {
-    display: block;
-    z-index: 9999;
+  display : block;
+  z-index : 9999;
 }
 
 /* Mobile defaults */
 @media (max-width: 600px) {
-.desktop-header {display: none;}
-.desktop-body   {display: none;}
-.desktop-footer {display: none;}
+  .desktop-header {display: none;}
+  .desktop-body   {display: none;}
+  .desktop-footer {display: none;}
 
-.mobile-header  {display: block;}
-.mobile-body    {display: table;}
-.mobile-footer  {display: table;}
+  .mobile-header  {display: block;}
+  .mobile-body    {display: table;}
+  .mobile-footer  {display: table;}
 }
 
 /* Desktop from 601 px */
 @media (min-width: 601px) {
-.desktop-header {display: table;}
-.desktop-body   {display: table;}
-.desktop-footer {display: table;}
+  .desktop-header {display: table;}
+  .desktop-body   {display: table;}
+  .desktop-footer {display: table;}
 
-.mobile-header  {display: none;}
-.mobile-body    {display: none;}
-.mobile-footer  {display: none;}
+  .mobile-header  {display: none;}
+  .mobile-body    {display: none;}
+  .mobile-footer  {display: none;}
 }
