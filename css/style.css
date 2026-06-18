@@ -74,7 +74,7 @@ A.header:hover {
   color           : #777777;
   font-weight     : bold;
 }
-  
+
 H1 {
   font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-size   : 24px;
@@ -289,13 +289,13 @@ nav ul li {
 
 nav a {
   display         : inline-block;
-  line-height     : 2;
+  line-height     : 1.5;
   text-decoration : none;
 }
 
 nav ul li ul {
   position      : absolute;
-  margin        : 0px 0px 0px 20px;
+  margin        : 0px 0px 0px 0px;
   background    : #ffffff;
   border-radius : 10px;
   left          : -300;
@@ -305,6 +305,7 @@ nav ul li ul {
 nav ul li ul li {
   display  : list-item;
   position : relative;
+  margin   : 0px 20px 0px 0px;
 }
 
 nav ul li:focus > ul, nav ul li:active > ul {
@@ -326,22 +327,22 @@ nav a:focus + ul, nav a:active + ul {
 
 /* Mobile defaults */
 @media (max-width: 600px) {
-  .desktop-header {display: none;}
-  .desktop-body   {display: none;}
-  .desktop-footer {display: none;}
+  .desktop-header {display : none;}
+  .desktop-body   {display : none;}
+  .desktop-footer {display : none;}
 
-  .mobile-header  {display: block;}
-  .mobile-body    {display: table;}
-  .mobile-footer  {display: table;}
+  .mobile-header  {display : block;}
+  .mobile-body    {display : table;}
+  .mobile-footer  {display : table;}
 }
 
 /* Desktop from 601 px */
 @media (min-width: 601px) {
-  .desktop-header {display: table;}
-  .desktop-body   {display: table;}
-  .desktop-footer {display: table;}
+  .desktop-header {display : table;}
+  .desktop-body   {display : table;}
+  .desktop-footer {display : table;}
 
-  .mobile-header  {display: none;}
-  .mobile-body    {display: none;}
-  .mobile-footer  {display: none;}
+  .mobile-header  {display : none;}
+  .mobile-body    {display : none;}
+  .mobile-footer  {display : none;}
 }
