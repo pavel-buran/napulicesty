@@ -7,41 +7,48 @@ body {
   margin      : 0px 0px 0px 0px;
   padding     : 0px 0px 0px 0px;
   spacing     : 0px;
+  background-color : #E6E6E6;
+  margin           : 10px 10px 10px 10px;
+  background-image: url('../images/panorama.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Mobile defaults */
-@media (max-width: 600px) {
-  .content{
-    position : relative;
-    margin   : 10px 10px 10px 10px;
-  }
-  .bg {
-    background-image  : url('../images/panorama.jpg');
-    background-repeat : no-repeat;
-    background-size   : cover;
-    height            : 100vh;
-    width             : 100vw;
-    margin            : -10px 0px 0px 0px;
-    position          : fixed;
-  }
-}
+/* @media (max-width: 600px) { */
+  /* .content{ */
+    /* position : relative; */
+    /* margin   : 10px 10px 10px 10px; */
+  /* } */
+  /* .bg { */
+    /* background-image  : url('../images/panorama.jpg'); */
+    /* background-repeat : no-repeat; */
+    /* background-size   : cover; */
+    /* height            : 100vh; */
+    /* width             : 100vw; */
+    /* margin            : -10px 0px 0px 0px; */
+    /* position          : fixed; */
+  /* } */
+/* } */
 
 /* Desktop from 601 px */
-@media (min-width: 601px) {
-  .content{
-    position : relative;
-    margin   : 30px 30px 30px 30px;
-  }
-  .bg {
-    background-image  : url('../images/panorama.jpg');
-    background-repeat : no-repeat;
-    background-size   : cover;
-    height            : 100vh;
-    width             : 100vw;
-    margin            : -30px 0px 0px 0px;
-    position          : fixed;
-  }
-}
+/* @media (min-width: 601px) { */
+  /* .content{ */
+    /* position : relative; */
+    /* margin   : 30px 30px 30px 30px; */
+  /* } */
+  /* .bg { */
+    /* background-image  : url('../images/panorama.jpg'); */
+    /* background-repeat : no-repeat; */
+    /* background-size   : cover; */
+    /* height            : 100vh; */
+    /* width             : 100vw; */
+    /* margin            : -30px 0px 0px 0px; */
+    /* position          : fixed; */
+  /* } */
+/* } */
 
 A {
   font-family     : Verdana, Geneva, Arial, Helvetica, sans-serif;

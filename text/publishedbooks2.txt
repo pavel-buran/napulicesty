@@ -1,0 +1,6 @@
+<b>Na půli cesty</b> je jeho první knihou v pořadí.<br>
+<br>
+<center><img width="190" src="images/book1.png" alt="Kniha" style="border:0px solid #999999" /></center><br>
+Druhá kniha vyjde v roce 2027: <a href="http://hlavnezesirozumime.cz" target="_blank">hlavnezesirozumime.cz</a><br>
+<br>
+<center><img width="290" src="images/book2.png" alt="Kniha" style="border:0px solid #999999" /></center>
